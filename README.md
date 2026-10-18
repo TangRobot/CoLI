@@ -16,11 +16,11 @@ Here is the materials required of an leader robot or an follower robot.
 
 | Category | Item | Quantity / Specification |
 |---|---|---|
-| 3D-Printed | `Continuum_robot` | 1 |
-| 3D-Printed | `Base` | 1 |
-| 3D-Printed | `Connection` | 1 |
-| 3D-Printed | `Spool` | 9 |
-| 3D-Printed | `End_effector` | 1 |
+| 3D-Printed parts | `Continuum_robot` | 1 |
+| 3D-Printed parts | `Base` | 1 |
+| 3D-Printed parts | `Connection` | 1 |
+| 3D-Printed parts | `Spool` | 9 |
+| 3D-Printed parts | `End_effector` | 1 |
 | Actuators | Dynamixel XC430-T240BB-T or XL330-M288-T servo | 9 |
 | Actuators | Dynamixel U2D2 Hub | 1 |
 | Actuators | Dynamixel PHB Set | 1 |
