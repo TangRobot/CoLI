@@ -76,7 +76,7 @@ If you encounter any issues during the fabrication or assembly process, feel fre
 
 If you successfully replicate our robot, we would love to hear from you and see your results!
 
-This work was published at **IEEE/RSJ IROS 2026**. If you use our work in your research or publications, please cite:
+This work was published at IEEE/RSJ IROS 2026. If you use our work in your research or publications, please cite:
 
 ```code
 @misc{tang2026coli,
