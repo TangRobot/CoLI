@@ -10,17 +10,20 @@ To learn more about the paper, please visit:
 [Website: https://tangrobot.github.io/CoLI-website/](https://tangrobot.github.io/CoLI-website/)
 
 
+![main.jpg](./images/main.jpg)
+
+
 ## Required Material
 
 Here is the materials required of an leader robot or an follower robot.
 
 | Category | Item | Quantity / Specification |
 |---|---|---|
-| 3D-Printed parts | `Continuum_robot` | 1 |
-| 3D-Printed parts | `Base` | 1 |
-| 3D-Printed parts | `Connection` | 1 |
-| 3D-Printed parts | `Spool` | 9 |
-| 3D-Printed parts | `End_effector` | 1 |
+| 3D-Printed Parts | `Continuum_robot` | 1 |
+| 3D-Printed Parts | `Base` | 1 |
+| 3D-Printed Parts | `Connection` | 1 |
+| 3D-Printed Parts | `Spool` | 9 |
+| 3D-Printed Parts | `End_effector` | 1 |
 | Actuators | Dynamixel XC430-T240BB-T or XL330-M288-T servo | 9 |
 | Actuators | Dynamixel U2D2 Hub | 1 |
 | Actuators | Dynamixel PHB Set | 1 |
@@ -31,6 +34,9 @@ Here is the materials required of an leader robot or an follower robot.
 | Screws | Flat-head screw (M4 × 18 mm) | 3 |
 | Screws | Socket-head screw with lock nut (M2.5 × 10 mm) | 4 |
 | Screws | Socket-head screw with lock nut (M2 × 10 mm) | 3 |
+
+![material.jpg](./images/material.jpg)
+
 
 ## 3D Printing Instruction
 
@@ -69,6 +75,37 @@ Follow the steps below to assemble the continuum robot, including both the leade
 8. **Connect the servos.** Use the cables supplied by Dynamixel to connect the servos in a daisy chain. Connect the chain to the power supply board and the U2D2 Hub. Ensure that the power supply is rated for a current of **more than 5 A**.
 
 9. **Implement isomorphic teleoperation.** You can now implement isomorphic teleoperation based on the [Dynamixel SDK](https://docs.robotis.com/docs/software/dynamixel_sdk/) and the actuation principles described in **Sec. III-B** of the [paper](https://arxiv.org/abs/2606.20389). LeRobot-compatible code will be released soon.
+
+![Assembly.jpg](./images/Assembly.jpg)
+
+## How to Use
+
+Please refer to the `README.md` files under `Software/XXX` for instructions on controlling the robot.
+
+### Calibration
+
+You will need to complete the calibration procedure before running each program.
+
+1. Print the calibration sleeve model provided in `CAD/Calibrator`.
+2. Before running the program, use the calibration sleeve to keep the robot in an upright position.
+3. Run the program and wait for the tendons to tighten.
+4. Remove the calibration sleeve and manually adjust any spacer disks that are not in their desired positions. Please ensure that all tendons are routed correctly, especially at the pulley.
+5. Follow the command-line instructions and press the confirmation key when prompted.
+
+### Direct Mapping
+
+The files in `Software/Direct_mapping` provide direct motion mapping from the leader robot to the follower robot.
+
+To use this feature:
+
+1. Configure the port, baud rate, and servo IDs in `leader_M288.py` and `Follower_T240.py`.
+1. Run program `leader_M288.py` and complete the calibration procedure.
+2. Run program `Follower_T240.py` and complete the calibration procedure.
+3. Motion mapping between the leader and follower robots will begin automatically.
+
+### LeRobot Integration
+
+We provide LeRobot-compatible integration code. Please refer to the [LeRobot Instructions](https://huggingface.co/docs/lerobot/main/en/integrate_hardware) for guidance on controlling the robot through the LeRobot framework.
 
 ## About This Project
 
