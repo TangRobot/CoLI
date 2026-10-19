@@ -74,13 +74,15 @@ Follow the steps below to assemble the continuum robot, including both the leade
 
 8. **Connect the servos.** Use the cables supplied by Dynamixel to connect the servos in a daisy chain. Connect the chain to the power supply board and the U2D2 Hub. Ensure that the power supply is rated for a current of **more than 5 A**.
 
-9. **Implement isomorphic teleoperation.** You can now implement isomorphic teleoperation based on the [Dynamixel SDK](https://docs.robotis.com/docs/software/dynamixel_sdk/) and the actuation principles described in **Sec. III-B** of the [paper](https://arxiv.org/abs/2606.20389). LeRobot-compatible code will be released soon.
-
 ![Assembly.jpg](./images/Assembly.jpg)
 
 ## How to Use
 
 Please refer to the `README.md` files under `Software/XXX` for instructions on controlling the robot.
+
+We provide control code for direct motion mapping and integration code for the LeRobot framework.
+
+Also, you may implement isomorphic teleoperation based on the [Dynamixel SDK](https://docs.robotis.com/docs/software/dynamixel_sdk/) and the actuation principles described in **Sec. III-B** of the [paper](https://arxiv.org/abs/2606.20389).
 
 ### Calibration
 
