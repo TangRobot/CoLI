@@ -1,0 +1,3 @@
+We provide LeRobot-compatible integration code. Please refer to the [LeRobot Instructions](https://huggingface.co/docs/lerobot/main/en/integrate_hardware) for guidance on controlling the robot through the LeRobot framework.
+
+Before integrating with LeRobot, we recommend running the programs in `Software/Direct_mapping` first to verify that the hardware is functioning properly and familiarize yourself with the operation workflow. The execution logic of these programs is largely similar to that of `Direct_mapping`.

@@ -1,0 +1,2 @@
+from .config_soft_continum_9 import ContinumRobotConfig
+from .soft_continum_9 import ContinumRobot
