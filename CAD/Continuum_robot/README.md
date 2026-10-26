@@ -27,6 +27,8 @@ We recommend printing the continuum robot using the provided `.3mf` file, which 
 2. Connect your printer and synchronize the printer settings.
 3. Slice the model and send the print job to your printer.
 
+You can also visit our MakerWorld model page ([CN](https://makerworld.com.cn/zh/models/3159310-coli-a-reproduceable-printable-continuum-robot#profileId-3724074)/[World](https://makerworld.com/models/3498238-coli-a-reproduceable-printable-continuum-robot#profileId-3996050)) to download the models and print them with a single click.
+
 ### Alternative Printing Method: `.stl` Files
 
 If you prefer to print using the `.stl` files, follow these steps:
