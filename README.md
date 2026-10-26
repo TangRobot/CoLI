@@ -9,6 +9,7 @@ To learn more about the paper, please visit:
 
 [Website: https://tangrobot.github.io/CoLI-website/](https://tangrobot.github.io/CoLI-website/)
 
+Video: [Bilibili](https://www.bilibili.com/video/BV1HSTF6sEuy/?share_source=copy_web&vd_source=95bcfa8e28b1c93283ea8624e7b82aea)
 
 ![main.jpg](./images/main.jpg)
 
