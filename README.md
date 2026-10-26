@@ -5,9 +5,9 @@ CoLI is a reproducible, open-source platform for continuum robot learning, featu
 
 To learn more about the paper, please visit:
 
-[Paper: https://arxiv.org/abs/2606.20389](https://arxiv.org/abs/2606.20389)
+Paper: [https://arxiv.org/abs/2606.20389](https://arxiv.org/abs/2606.20389)
 
-[Website: https://tangrobot.github.io/CoLI-website/](https://tangrobot.github.io/CoLI-website/)
+Website: [https://tangrobot.github.io/CoLI-website/](https://tangrobot.github.io/CoLI-website/)
 
 Video: [Bilibili](https://www.bilibili.com/video/BV1HSTF6sEuy/?share_source=copy_web&vd_source=95bcfa8e28b1c93283ea8624e7b82aea)
 
