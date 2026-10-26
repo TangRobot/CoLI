@@ -44,7 +44,7 @@ Please read the `README.md` file in each `CAD/XXX` fold and follow the instructi
 
 Overall, we recommend using the **Bambu Lab H2D 3D printer** (with dual 0.4 mm nozzles) to fabricate the continuum robot. We recommend using the provided `.3mf` files, which already include the printing profiles, to start your prints. Please follow the material types specified in each file.
 
-You can also visit our MakerWorld model page ([CN]()/[World][https://makerworld.com/models/3498238-coli-a-reproduceable-printable-continuum-robot#profileId-3996050]) to download the models and print them with a single click.
+You can also visit our MakerWorld model page ([CN](https://makerworld.com.cn/zh/models/3159310-coli-a-reproduceable-printable-continuum-robot#profileId-3724074)/[World](https://makerworld.com/models/3498238-coli-a-reproduceable-printable-continuum-robot#profileId-3996050)) to download the models and print them with a single click.
 
 You will need to prepare the following printing materials.
 
